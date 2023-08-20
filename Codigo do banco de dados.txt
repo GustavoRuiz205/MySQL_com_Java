@@ -1,0 +1,15 @@
+create database exemplodb;
+
+use  exemplodb;
+
+create table Cliente(
+codigo integer not null auto_increment,
+nome varchar(30),
+email varchar(50),
+telefone varchar (25),
+constraint pk_cliente primary key (codigo)
+);
+
+select * from Cliente;
+
+
